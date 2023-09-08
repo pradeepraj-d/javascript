@@ -1,0 +1,81 @@
+body{
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 25px;
+    width: 500px ;
+    min-width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px;   
+}
+
+input{
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-family: poppins;
+    margin-right: 5px;
+}
+
+button{
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-family: poppins;
+    color: white;
+    background-color: rgb(250, 86, 27);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(206, 56, 2);
+}
+
+ul{
+    list-style: none;
+    width: fit-content;
+    margin: 10px;
+    padding: 0;
+}
+
+li{
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-todo{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-family: poppins;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+}
+
+.delete-todo:hover{
+    background-color: rgb(199, 2, 2);
+}
